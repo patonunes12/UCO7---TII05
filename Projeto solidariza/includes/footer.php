@@ -11,7 +11,11 @@
         const menutoggle = document.querySelector('.menu-toggles');
         const menulinks = document.querySelector('.menu-links')
 
+        menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('ativo');
+        menuLinks.classList.toggle('ativo');
 
+        })
 
     </script>
 </body>
