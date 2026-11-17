@@ -6,5 +6,13 @@
 
 </footer>
     <script src="assets/js/main.js"></script>
+
+    <script>
+        const menutoggle = document.querySelector('.menu-toggles');
+        const menulinks = document.querySelector('.menu-links')
+
+
+
+    </script>
 </body>
 </html>
