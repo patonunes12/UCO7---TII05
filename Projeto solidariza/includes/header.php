@@ -23,7 +23,7 @@
                 </button>
                 <ul class="menu-links">
                     <li><a href="index.php">Inicio </a></li>
-                    <li><a href="#">Campanhas </a></li>
+                    <li><a href="#campanhas">Campanhas </a></li>
                     <li><a href="login.php">Entrar </a></li>
                     <li><a href="cadastro">Cadastrar </a></li>
                 </ul>
