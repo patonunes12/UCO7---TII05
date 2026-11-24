@@ -25,7 +25,7 @@
                     <li><a href="index.php">Inicio </a></li>
                     <li><a href="#campanhas">Campanhas </a></li>
                     <li><a href="login.php">Entrar </a></li>
-                    <li><a href="cadastro">Cadastrar </a></li>
+                    <li><a href="cadastro.php">Cadastrar </a></li>
                 </ul>
             </nav>    
         </div>   
