@@ -25,10 +25,9 @@
                     <div class="grupo-input">
                         <label for="email">Email</label>
                         <input 
-                        
                             type="email"
                             id="email"
-                            name="nome"
+                            name="email"
                             placeholder="Ex. maria@email.com"
                             maxlength="150"
                             required
@@ -37,7 +36,6 @@
 
                     <div class="linha-dupla">
                         <div class="grupo-input">
-
                             <label for="senha">Senha</label>
                             <input
                                 type="password"
@@ -50,19 +48,18 @@
                         </div>
 
                         <div class="grupo-input">
-                            <label for="senha">Confirmar sua Senha</label>
+                            <label for="confirmar-senhas">Confirmar sua Senha</label>
                             <input
                                 type="password"
-                                id="senha"
-                                name="senha"
-                                placeholder="Minimo de 6 caracteres"
+                                id="confirmar-senhas"
+                                name="confirmar_senha"
+                                placeholder="Repita a senha"
                                 minlength="6"
                                 required
-                            >
-                            <small id="erro-senha" class="mensagem-erro">as senhas não são iguais</small>
+                            > 
+                            <small id="erro-senha" class="mensagem-erro"></small>
                         </div>
                     </div>
-
 
                 </fieldset>
             <fieldset class="grupo-secao">
@@ -76,10 +73,11 @@
                             name="cep"
                             placeholder="Ex: 12345-678"
                             maxlength="9"
+                            inputmode="numeric"
                             pattern="\d{5}-\d{3}"
                             required
                         >
-                        <small id="cep-status" class="texto-ajuda"> Digite o CEP para preencimento automatico</small>
+                        <small id="cep-status" class="texto-ajuda">Digite o CEP para preenchimento automático</small>
                     </div>
                     <div class="grupo-input">
                         <label for="bairro">Bairro</label>
@@ -105,32 +103,33 @@
                     >
                 </div>
                
-                <div class="linha-dupla"></div>
-                <div class="grupo-input">
-                    <label for="localidade">Cidade</label>
-                    <input
-                        type="text"
-                        id="localidade"
-                        name="localidade"
-                        placeholder="Preenchimento automático"
-                        maxlength="100"
-                        required
-                    >
+                <div class="linha-dupla">
+                    <div class="grupo-input">
+                        <label for="localidade">Cidade</label>
+                        <input
+                            type="text"
+                            id="localidade"
+                            name="localidade"
+                            placeholder="Preenchimento automático"
+                            maxlength="100"
+                            required
+                        >
+                    </div>
+                   
+                    <div class="grupo-input">
+                        <label for="uf">Estado</label>
+                        <input
+                            type="text"
+                            id="uf"
+                            name="uf"
+                            placeholder="Preenchimento automático"
+                            maxlength="2"
+                            required
+                        >
+                    </div>
                 </div>
-               
-                <div class="grupo-input">
-                    <label for="uf">Estado</label>
-                    <input
-                        type="text"
-                        id="uf"
-                        name="uf"
-                        placeholder="Preenchimento automático"
-                        maxlength="2"
-                        required
-                    >
-                </div>  
             </fieldset>
-                <button type="submit" class="btn-bloco btn-sustentavel">Entrar</button>
+                <button type="submit" class="btn-bloco btn-sustentavel">Cadastrar</button>
             </form>
  
             <div class="rodape-form">
